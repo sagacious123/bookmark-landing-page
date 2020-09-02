@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookmark landing page</title>
+</head>
+<body>
+    <header class="head container-nav">
+        <nav id="navbar" class="nav-bar">
+            <div class="nav-brand">
+                <a href="#"><img class="logo" src="images/logo-bookmark.svg" alt="logo"></a>
+                <a href="#"><img class="logo2" src="images/logo-bookmark3.svg" alt="logo"></a>
+            </div>
+            <ul class="nav-items">
+                <hr class="nhr">
+                <li class="dropdown"><a class="nav-link dropbtn" href="#">FEATURES</a>
+                    <div class="dropdown-content">
+                        <a href="#">Option 1</a>
+                        <a href="#">Option 2</a>
+                        <a href="#">Option 3</a>
+                    </div>
+                </li>
+                <hr class="nhr">
+                <li class="dropdown"><a class="nav-link dropbtn" href="#">PRICING</a>
+                    <div class="dropdown-content">
+                        <a href="#">Option 1</a>
+                        <a href="#">Option 2</a>
+                        <a href="#">Option 3</a>
+                    </div>
+                </li>
+                <hr class="nhr">
+                <li><a class="nav-link" href="#">CONTACT</a></li>
+                <hr class="nhr">
+                <a class="nav-link bt" href="#"><button class="red-btn">LOGIN</button></a>
+                
+            </ul>
+            <div class="social">
+                <a class="fa-fb" href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="nav-toggler">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <!-- <i id="icon" class="fa fa-bars"></i> -->
+        </nav>
+    </header>
+    <!-- <img class="hero" src="images/hero-desktop.jpg" alt=""> -->
+    <!-- <div class="overlay">
+    <svg width="650" height="650" viewbox="0 0 100 100" preserveAspectRatio="none">
+        <image xlink:href="images/hero-desktop.jpg" width="100"/>
+        <defs>
+            <clipPath id="svgPath"> 
+                <path d="M0,0 
+                        L520,0
+                        C450,350 1000,405 0,1200z" fill="rgba(180, 17, 255, 0.803)"/>
+            </clipPath>
+        </defs> 
+      </svg> 
+    </div> -->
+      <!-- <path d="M0,0 
+                 L70,0
+                 C60,50 180,105 0,200z" fill="rgba(180, 17, 255, 0.803)"/> -->
+    <div class="modal">
+        <form class="login-form animate">
+            
+                <img src="images/login-icon.jpg" alt="hex">
+            
+            <div class="form-input">
+                <h2 class="good">LOGIN</h2>
+                <span class="close">&times</span>
+                
+                <!-- <div class="form-input-material1"> -->
+                    <input type="text" name="username" id="uname" placeholder=" " class="input1" autocomplete="off" required>
+                    <label for="username" id="label1" class="lbl">Username</label>
+                <!-- </div> -->
+
+                <!-- <div class="form-input-material2"> -->
+                    <input type="password" name="password" id="pword" placeholder=" " class="input2" required>
+                    <label for="password" id="label2" class="lbl">Password</label>
+                <!-- </div> -->
+
+                <button type="submit">Login</button>
+                <label for="Checkbox" id="check">
+                <input type="checkbox" name="Checkbox" id="chkbox">
+                Remember me</label>
+                <p>Forgot <a href="#">Password?</a></p>
+            </div>
+        </form>
+    </div>
+    <div class="intro">
+        <div class="bg-curve bg-curve1"></div>
+        <div class="container container-flex">
+            <div class="intro-content">
+                <h1>A Simple Bookmark Manager</h1>
+                <p>A clean and simple interface to organize your favourite websites. Open a new 
+                    browser tab and see your sites load instantly. Try it for free.</p>
+                <a href="#"><button class="intro-b1">Get it on Chrome</button></a>
+                <a href="#"><button class="intro-b2">Get it on Firefox</button></a>
+            </div>
+            
+                <img class="intro-img" src="images/illustration-hero.svg" alt="illustration-hero">
+
+        </div>
+    </div>
+    <!-- <section class="features-section">
+        <div class="container features">
+            <h1>Features</h1>
+            <p>Our aim is to make it quick and easy for you to access your favourite websites. 
+                Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+    </section> -->
+    <section class="container tab-section">
+        <div class="features">
+            <h1>Features</h1>
+            <p>Our aim is to make it quick and easy for you to access your favourite websites. 
+                Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+        <div class="tabs">
+            <hr>
+            <button class="tab-link tab-link1">Simple Bookmarking</button>
+            <hr>
+            <button class="tab-link tab-link2">Speedy Searching</button>
+            <hr>
+            <button class="tab-link tab-link3">Easy Sharing</button>
+            <hr>
+        </div>
+        <hr class="thr">
+        <div class="bg-curve bg-curve2"></div>
+        
+        <div id="tab1"class="tab-content tab1">
+            <img class="tab-img" src="images/illustration-features-tab-1.svg" alt="illustration-features-1">
+            <div class="intro-content bookmark-content">
+                <h1>Bookmark in one click</h1>
+                <p>Organize your bookmarks however you like. Our simple drag-and-drop interface 
+                    gives you complete control over how you manage your favourite sites.</p>
+                <!-- <a href="#"><button class="intro-b1">More Info</button></a> -->
+            </div>
+        </div>
+        <div id="tab2" class="tab-content tab2">
+            <img class="tab-img" src="images/illustration-features-tab-2.svg" alt="illustration-features-1">
+            <div class="intro-content bookmark-content">
+                <h1>Intelligent search</h1>
+                <p>Our powerful search feature will help you find saved sites in no time at all. 
+                    No need to trawl through all of your bookmarks.</p>
+                <a href="#"><button class="intro-b1">More Info</button></a>
+            </div>
+        </div>
+        <div id="tab3" class="tab-content tab3">
+            <img class="tab-img" src="images/illustration-features-tab-3.svg" alt="illustration-features-1">
+            <div class="intro-content bookmark-content">
+                <h1>Share your bookmarks</h1>
+                <p>Easily share your bookmarks and collections with others. Create a shareable 
+                    link that you can send at the click of a button.</p>
+                <a href="#"><button class="intro-b1">More Info</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="extension-section">
+        <div class="container">
+            <div class="extension">
+                <h1>Download the extension</h1>
+                <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+                    got a favourite you’d like us to prioritize.</p>
+            </div>
+            <div class="cards container-flex">
+                <div class="card1">
+                    <img src="images/logo-chrome.svg" alt="chrome">
+                    <h3>Add to Chrome</h3>
+                    <p>Minimum version 62</p>
+                    <a href="#"><button class="extension-button">Add & Install Extension</button></a>
+                </div>
+                <div class="card2">
+                    <img src="images/logo-firefox.svg" alt="firefox">
+                    <h3>Add to Firefox</h3>
+                    <p>Minimum version 55</p>
+                    <a href="#"><button class="extension-button">Add & Install Extension</button></a>
+                </div>
+                <div class="card3">
+                    <img src="images/logo-opera.svg" alt="opera">
+                    <h3>Add to Opera</h3>
+                    <p>Minimum version 46</p>
+                    <a href="#"><button class="extension-button">Add & Install Extension</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="accordion-section">
+        <div class="container">
+            <div class="extension">
+                <h1>Frequently Asked Questions</h1>
+                <p>Here are some of our FAQs. If you have any other questions you’d like 
+                    answered please feel free to email us.
+            </div>
+            <div class="accordion">
+                <button class="acc-button">What is Bookmark? <i class="fa fa-chevron-down"></i></button>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+                </div>
+                <button class="acc-button">How can I request a new browser? <i class="fa fa-chevron-down"></i></button>
+                <div class="content">
+                    <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+                <button class="acc-button">Is there a mobile app? <i class="fa fa-chevron-down"></i></button>
+                <div class="content">
+                    <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.</p>
+                </div>
+                <button class="acc-button">What about other Chromium browsers? <i class="fa fa-chevron-down"></i></button>
+                <div class="content">
+                    <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
+                </div>
+            </div>
+            <a href="#"><button class="acc-btn">More Info</button></a>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-light">
+                <h6>35,000+ ALREADY JOINED</h6>
+                <h3>Stay up-to-date with what we’re doing</h3>
+                <form class="mail-form">
+                    <input type="text" placeholder="Enter your email address" class="mail-input">
+                    <input type="button" value="Contact Us" class="red-btn-foot">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-dark">
+        <div class="container footer-bar">
+            <a href="#"><img src="images/logo-bookmark2.svg" alt="logo"></a>
+            
+            <ul class="footer-items">
+                <li><a class="footer-link" href="#">FEATURES</a></li>
+                <li><a class="footer-link" href="#">PRICING</a></li>
+                <li><a class="footer-link" href="#">CONTACT</a></li>
+            </ul>
+            <div style="float: right;">
+                <a class="fa-fb" href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
